@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 require("colors");
-module.exports = (config) => {
+module.exports.builder = (config) => {
   function esbuildInstaller() {
     exec("npx esbuild --version", (err, stdout, stdeer) => {
       if (err) {

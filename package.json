@@ -1,5 +1,5 @@
 {
-  "name": "esbuilder",
+  "name": "buildes",
   "version": "1.0.0",
   "description": "This package for easy using in esbuild",
   "main": "index.js",

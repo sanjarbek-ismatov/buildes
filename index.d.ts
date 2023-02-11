@@ -1,4 +1,4 @@
-declare module "esbuilder" {
+declare module "buildes" {
   declare const builder = (config: {
     input: string;
     bundle: boolean;
