@@ -1,6 +1,6 @@
 {
   "name": "buildes",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "This package for easy using in esbuild",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanjarbek-ismatov/esbuilder.git"
+    "url": "git+https://github.com/sanjarbek-ismatov/buildes.git"
   },
   "keywords": [
     "esbuild",
