@@ -1,0 +1,28 @@
+{
+  "name": "esbuilder",
+  "version": "1.0.0",
+  "description": "This package for easy using in esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjarbek-ismatov/esbuilder.git"
+  },
+  "keywords": [
+    "esbuild",
+    "esbuilder",
+    "bundle",
+    "new"
+  ],
+  "author": "Sanjarbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjarbek-ismatov/esbuilder/issues"
+  },
+  "homepage": "https://github.com/sanjarbek-ismatov/esbuilder#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
