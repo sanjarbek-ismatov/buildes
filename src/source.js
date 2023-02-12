@@ -27,9 +27,9 @@ module.exports.builder = (config) => {
   exec(
     `esbuild ${config.input} ${config.bundle ? "--bundle" : ""} ${
       config.minimized ? "--minify" : ""
-    } --packages=${config.packages} --platform=${config.platform} --outfile=${
-      config.output
-    }`,
+    } ${config.packages ? `--packages=${config.packages}` : ""} ${
+      config.platform ? `--platform=${config.platform}` : ""
+    } --outfile=${config.output}`,
     (err, stdout, stdeer) => {
       if (err) {
         console.log("Something went wrong".bgRed.white);

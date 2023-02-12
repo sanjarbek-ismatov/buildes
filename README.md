@@ -19,7 +19,7 @@ builder({
 // package.json
 
 "scripts": {
-	"build": "node build.js"
+	"build": "node builder.js"
 }
 
 ```
